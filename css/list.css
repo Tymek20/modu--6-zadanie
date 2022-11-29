@@ -1,0 +1,15 @@
+.list {
+    margin: 5px 0px;
+    background-color: white;
+    padding: 20px 10px;
+    border-radius: 5px;
+}
+
+.list__tasks {
+    background-color: white;
+}
+
+.list__tasks--lineThrough {
+    text-decoration: line-through;
+}
+
