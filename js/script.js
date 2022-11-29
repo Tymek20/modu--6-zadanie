@@ -1,4 +1,11 @@
 {
+    const welcome = () => {
+        console.log("Witam wszystkich odwiedzających DEV", "- strona dodana do GIT.");
+    };
+
+    welcome();
+}
+{
     const tasks = [
         {
             content: "praca domowa",
