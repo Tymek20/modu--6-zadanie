@@ -22,6 +22,7 @@
             content: newTaskContent,
         });
         render();
+        formReset();
     };
 
     const removeTask = (taskIndex) => {
@@ -33,6 +34,10 @@
         tasks[taskIndex].done = !tasks[taskIndex].done;
         render();
     };
+
+    const formReset = () => {
+        document.querySelector(".js-form").reset();
+      };
 
     const bindEvents = () => {
         const removeButtons = document.querySelectorAll(".js-remove");
@@ -57,12 +62,10 @@
 
         for (const task of tasks) {
             htmlString += `
-                <li${task.done ? " class=\"list__tasks--lineThrough\"" : ""}>
-
-                <button class="js-done">zrobione?</button>
-                <button class="js-remove">usuń</button>                
-               
-                ${task.content}
+                <li class="list__tasks">            
+                <button class="list__doneButton js-done"> ${task.done ? "✓" : ""}</button>
+                <p class=${task.done ? "list__tasks--lineThrough" : ""}>${task.content}</p>
+                <button class="list__removeButton js-remove">🗑</button>
                 </li>
                 `;
         };
