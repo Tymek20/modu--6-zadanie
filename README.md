@@ -2,14 +2,16 @@
 
 ## One of the first page on github
 
-### This is my homepage with BEM convention practis, it's part of the "YouCode" frontend course.
-[homepage with BEM](https://tymek20.github.io/BEM-refactoring/)
+### This is not an easy to do page about the to do list.
+[Zadanie domowe moduł 6](https://tymek20.github.io/modu--6-zadanie/)
 
-![Alt Text](https://github.com/Tymek20/BEM-refactoring/blob/main/images/Animation.gif?raw=true)
+![Alt Text](https://github.com/Tymek20/modu--6-zadanie/blob/master/gif/modul%206%20zadanie%20domowe.gif?raw=true)
 
 #### Here is the rest of my works:
 
 [Currencu Converter](https://tymek20.github.io/Currency-converter/)
+
+[Refactoring BEM](https://tymek20.github.io/BEM-refactoring/)
 #### Tech we learn to use: 
 - HTML
 - JAVASCRIPT
@@ -17,6 +19,7 @@
 - BEM
 - Markdown
 - Flex
+- GRID
 
 and a photo below of me with my son
 
