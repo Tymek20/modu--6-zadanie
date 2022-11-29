@@ -1,20 +1,35 @@
 .form {
-    display: grid;
-    grid-template-columns: 3fr 1fr;
-    border: 2px solid black;
+    background-color: white;
+    display: flex;
     padding: 10px 10px;
     border-radius: 5px;
-
 }
 
 .form__newTask {
-    background-color: white;
+    background-color: rgb(226, 221, 221);
     border: 1px solid lightgray;
     border-radius: 5px;
-
+    cursor: text;
+    flex-basis: 78%;
 }
 
 .form__addButton {
     border-radius: 5px;
     margin: 0 5px;
+    cursor: grab;
+}
+
+@media (max-width: 767px) {
+    .form {
+        flex-wrap: wrap;
+    }
+
+    .form__newTask {
+        flex-basis: 100%;
+    }
+
+    .form__addButton {
+        flex-basis: 100%;
+        margin: 0px;
+    }
 }
