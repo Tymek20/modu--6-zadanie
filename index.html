@@ -9,6 +9,7 @@
         integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" /><!-- Normalizer -->
     <link href="css/style.css" rel="stylesheet">
+    <link href="css/list.css" rel="stylesheet">
     <link href="css/form.css" rel="stylesheet">
     <title>Strona startowa</title>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,600;0,700;1,300&display=swap"
@@ -16,15 +17,17 @@
     <script defer src="js/script.js"></script>
 </head>
 
-<body>
+<body class="body">
     <h1>Lista zadań</h1>
-    <header>Dodaj nowe zadanie</header>
-    <form class="js-form">
-        <input class="js-newTask">
-        <button>Dodaj zadanie</button>
-    </form class="form">
-    <div class="form__header">Lista zadań</div>
-    <ul class="js-tasks"></ul>
+    <header class="header">Dodaj nowe zadanie</header>
+    <form class="form js-form">
+        <input class="form__newTask js-newTask" placeholder="Co jest do zrobienia?">
+        <button class="form__addButton">Dodaj zadanie</button>
+    </form>
+    <div class="list">Lista zadań</div>
+    <ul class="list__tasks js-tasks">
+        
+    </ul>
 
 </body>
 
