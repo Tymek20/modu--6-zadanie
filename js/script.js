@@ -57,7 +57,7 @@
 
         for (const task of tasks) {
             htmlString += `
-                <li${task.done ? " class=\"form__tasks\"" : ""}>
+                <li${task.done ? " class=\"list__tasks--lineThrough\"" : ""}>
 
                 <button class="js-done">zrobione?</button>
                 <button class="js-remove">usuń</button>                
