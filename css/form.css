@@ -29,7 +29,7 @@
 }
 
 @media (max-width: 767px) {
-    .form {
+    .form__input {
         flex-wrap: wrap;
     }
 
