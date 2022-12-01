@@ -1,4 +1,12 @@
-.form {
+.form__header {
+    margin-bottom: 5px;
+    padding: 20px 10px;
+    font-size: x-large;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.form__input {
     background-color: white;
     display: flex;
     padding: 10px 10px;
