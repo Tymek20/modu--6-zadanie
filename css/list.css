@@ -43,6 +43,7 @@
     align-self: center;
     justify-self: center;
     cursor: pointer;
+    font-size: x-large;
 }
 
 .list__doneButton {
