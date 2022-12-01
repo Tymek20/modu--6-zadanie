@@ -7,6 +7,10 @@
 }
 {
     const tasks = [];
+    
+    const setFocus = () => {
+	document.querySelector(".js-newTask").focus();
+	}
 
     const addNewTask = (newTaskContent) => {
         tasks.push({
@@ -68,6 +72,8 @@
 
     const onFormSubmit = (event) => {
         event.preventDefault();
+        
+        setFocus();
 
         const newTaskContent = document.querySelector(".js-newTask").value.trim();
 
