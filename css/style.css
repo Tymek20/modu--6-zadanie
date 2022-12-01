@@ -17,11 +17,3 @@ html {
     padding: 20px;
     background-color: hsl(0, 21%, 90%);
 }
-
-.header {
-    margin-bottom: 5px;
-    padding: 20px 10px;
-    font-size: x-large;
-    background-color: white;
-    border-radius: 5px;
-}
