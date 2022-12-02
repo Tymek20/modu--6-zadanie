@@ -7,32 +7,36 @@
 }
 {
     const tasks = [];
-    
+
     const setFocus = () => {
-	document.querySelector(".js-newTask").focus();
-	}
+        document.querySelector(".js-newTask").focus();
+    }
 
     const addNewTask = (newTaskContent) => {
         tasks.push({
-            content: newTaskContent,
+        content: newTaskContent,
         });
+        
         render();
+        
         formReset();
     };
 
     const removeTask = (taskIndex) => {
         tasks.splice(taskIndex, 1);
+        
         render();
     };
 
     const toggleTaskDone = (taskIndex) => {
         tasks[taskIndex].done = !tasks[taskIndex].done;
+        
         render();
     };
 
     const formReset = () => {
         document.querySelector(".js-form").reset();
-      };
+    };
 
     const bindEvents = () => {
         const removeButtons = document.querySelectorAll(".js-remove");
@@ -57,12 +61,12 @@
 
         for (const task of tasks) {
             htmlString += `
-                <li class="list__tasks">            
+            <li class="list__tasks">            
                 <button class="list__doneButton js-done"> ${task.done ? "✓" : ""}</button>
                 <p class=${task.done ? "list__tasks--lineThrough" : ""}>${task.content}</p>
                 <button class="list__removeButton js-remove">🗑</button>
-                </li>
-                `;
+            </li>
+            `;
         };
 
         document.querySelector(".js-tasks").innerHTML = htmlString;
@@ -72,7 +76,7 @@
 
     const onFormSubmit = (event) => {
         event.preventDefault();
-        
+
         setFocus();
 
         const newTaskContent = document.querySelector(".js-newTask").value.trim();

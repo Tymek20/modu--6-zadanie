@@ -26,6 +26,9 @@
     border-radius: 5px;
     margin: 0 5px;
     cursor: grab;
+    border: none;
+    background-color: rebeccapurple;
+    color: lightgoldenrodyellow;
 }
 
 @media (max-width: 767px) {
