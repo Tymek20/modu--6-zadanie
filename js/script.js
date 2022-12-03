@@ -3,9 +3,6 @@
         console.log("Witam wszystkich odwiedzających DEV", "- strona dodana do GIT.");
     };
 
-    welcome();
-}
-{
     const tasks = [];
 
     const setFocus = () => {
@@ -14,23 +11,23 @@
 
     const addNewTask = (newTaskContent) => {
         tasks.push({
-        content: newTaskContent,
+            content: newTaskContent,
         });
-        
+
         render();
-        
+
         formReset();
     };
 
     const removeTask = (taskIndex) => {
         tasks.splice(taskIndex, 1);
-        
+
         render();
     };
 
     const toggleTaskDone = (taskIndex) => {
         tasks[taskIndex].done = !tasks[taskIndex].done;
-        
+
         render();
     };
 
@@ -71,7 +68,7 @@
 
         document.querySelector(".js-tasks").innerHTML = htmlString;
 
-        bindEvents()
+        bindEvents();
     };
 
     const onFormSubmit = (event) => {
@@ -94,6 +91,8 @@
         const form = document.querySelector(".js-form");
 
         form.addEventListener("submit", onFormSubmit);
+
+        welcome();s
     };
 
     init();
