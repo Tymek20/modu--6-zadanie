@@ -3,7 +3,7 @@
 ## One of the first page on github
 
 ### This is not an easy to do page about the to do list.
-[Zadanie domowe moduł 6](https://tymek20.github.io/modu--6-zadanie/)
+[Zadanie domowe moduł 6](https://tymek20.github.io/modul-6-zadanie/)
 
 ![Alt Text](https://github.com/Tymek20/modul-6-zadanie/blob/master/gif/modul%206%20zadanie%20domowe.gif?raw=true)
 
