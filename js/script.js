@@ -92,7 +92,7 @@
 
         form.addEventListener("submit", onFormSubmit);
 
-        welcome();s
+        welcome();
     };
 
     init();
