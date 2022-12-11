@@ -3,13 +3,13 @@
     padding: 20px 10px;
     font-size: x-large;
     background-color: white;
-   }
+}
 
 .form__input {
     background-color: white;
     display: flex;
     padding: 10px;
-    }
+}
 
 .form__newTask {
     background-color: rgb(226, 221, 221);
@@ -23,7 +23,7 @@
     margin: 0 5px;
     cursor: grab;
     border: none;
-    background-color:  rgb(62 92 106);
+    background-color: rgb(62 92 106);
     color: rgb(254, 255, 255);
     transition: 0.5s;
 }
